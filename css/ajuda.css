@@ -1,0 +1,112 @@
+body {
+padding: 0;
+margin: 0;
+position:fixed;
+top:0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+@font-face {
+  font-family: Splatch;
+  src: url(../resources/Splatch.ttf);
+}
+.back{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	right: 0.4px;
+	bottom: 0.4px;
+}
+
+
+.ajuda{
+	position: absolute;
+	top: 10%;
+	left: 20%;
+}
+
+
+p{
+	width:550%;
+	height:40%;
+	border-radius: 8px;
+	font-family: Splatch;
+	position: absolute;
+	color: black;
+	-webkit-text-stroke-width: 0.5px;
+   	-webkit-text-stroke-color:#F49447;
+}
+
+#endlesstexto{
+	font-size: 2.5vw;
+	top:35%;
+	left:60%;
+
+}
+
+#campanhatexto{
+	font-size: 2.5vw;
+	top:35%;
+	left: 20%;
+
+}
+
+#controls{
+	font-size: 2.5vw;
+	top: 25%;
+	left: 40%;
+}
+
+#jumpendless{
+	font-size: 1.5vw;
+	top:50%;
+	left: 60%;
+}
+
+#jump{
+	font-size: 1.5vw;
+	top: 50%;
+	left: 20%;
+}
+#crouch{
+	font-size: 1.5vw;
+	top: 60%;
+	left: 20%;
+}
+
+#start{
+	position: absolute;
+	width:150px;
+	height:40px;
+	font-size: 14px;
+	border-radius: 8px;
+	font-family: Splatch;
+	background-color: #F49447;
+	cursor: pointer;
+	border-color: black;
+	transition: background-color 0.5s, color 0.5s;
+	top: 200px;
+	left:200px;
+
+}
+#start:hover{
+	background-color: #0e1111;
+	color: #F49447;
+}
+
+#back{
+	position: absolute;
+	background-image: url(../resources/back.png);
+	top:70%;
+	left: 70%;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	overflow: hidden;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}

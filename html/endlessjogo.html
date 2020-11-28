@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>EndlessJogo</title>
+
+		<meta charset="utf-8">
+		<script type="text/javascript" src="../js/endless.js" defer="true"></script>
+
+  		<link rel="stylesheet" href="../css/endlessjogo.css" type="text/css" media="screen">
+	</head>
+
+
+	<body>
+		<div id="container">
+			<canvas id="canvas" width="1600" height="800" style="display: block; margin: auto"></canvas>
+			<section class="loading">
+			Carregando...
+			<span class="loading__author"></span>
+			    <span class="loading__anim"></span>
+			</section>
+			<div id="game-over">
+				<h1>Correu <span id="score"></span> metros!</h1>
+      			<button id="restart" href="javascript:void(0);">JOGAR</button>
+      			<button id = "endless2">SAIR</button>
+   			</div>
+   			<div id="pause">
+				<h1>Pausado</h1>
+      			<button id="continue" href="javascript:void(0);">CONTINUAR</button>
+      			<button id = "endless">SAIR</button>
+      			<p id = "music"> MUSICA :</p>
+				<p id = "sfx">SFX :</p>
+				<img id='musicamenosVol' src="https://image.flaticon.com/icons/png/512/25/25232.png" />
+						<img id='musicamaisVol' src="../resources/mais.png" />
+						<img id='mutemusica' border="0" />
+					<img id='sfxmenosVol' src="https://image.flaticon.com/icons/png/512/25/25232.png" />
+						<img id='sfxmaisVol' src="../resources/mais.png" />
+						<img id='mutesfx' border="0" />
+   			</div>
+   		</div>
+	</body>
+</html>

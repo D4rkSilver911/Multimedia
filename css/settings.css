@@ -1,0 +1,144 @@
+.back{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	right: 0.4px;
+	bottom: 0.4px;
+}
+
+
+.opcoes{
+	position: absolute;
+	top: 70px;
+	left: 300px;
+}
+
+#music{
+	width:400px;
+	height:40px;
+	font-size: 30px;
+	border-radius: 8px;
+	font-family: Splatch;
+	position: absolute;
+	top: 230px;
+	left: 350px;
+	color: black;
+	-webkit-text-stroke-width: 0.5px;
+   	-webkit-text-stroke-color:#F49447;
+}
+#sfx{width:400px;
+height:40px;
+font-size: 30px;
+border-radius: 8px;
+font-family: Splatch;
+position: absolute;
+top: 310px;
+left: 350px;
+color: black;
+-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color:#F49447;}
+button{
+	position: absolute;
+	cursor: pointer;
+}
+
+
+#musicamenosVol{
+	background-image: url(https://image.flaticon.com/icons/png/512/25/25232.png);
+	top:270px;
+	left: 600px;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+
+}
+#musicamaisVol{
+	background-image: url(../resources/mais.png);
+	top:270px;
+	left: 550px;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+
+}
+#mutemusica{
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top:270px;
+	left: 650px;
+	
+}
+#sfxmenosVol{
+	background-image: url(https://image.flaticon.com/icons/png/512/25/25232.png);
+	top:345px;
+	left: 525px;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+
+}
+#sfxmaisVol{
+	background-image: url(../resources/mais.png);
+	top:345px;
+	left: 475px;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+
+}
+#mutesfx{
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top:345px;
+	left: 575px;
+}
+
+#back{
+	position: absolute;
+	background-image: url(../resources/back.png);
+	top:70%;
+	left: 70%;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	overflow: hidden;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
